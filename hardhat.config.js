@@ -9,7 +9,7 @@ module.exports = {
     hardhat: {
       chainId: 1337
     },
-    goerli: {
+    polygon_mumbai: {
       url: ALCHEMY_API_URL,
       accounts: [MUMBAY_PRIVATE_KEY]
     },
