@@ -1,5 +1,31 @@
-.App {
-  text-align: center;
+@import '~antd/dist/antd.css';
+
+.logo {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+  width: 10.5rem;
+}
+.site-title{
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+.button-nav-wrapper{
+  float: right;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.ant-menu-item {
+  background: none !important;
+  color: black !important;
+}
+.ant-menu-item-selected {
+  background: none !important;
+  color: black !important;
 }
 
 .App-logo {

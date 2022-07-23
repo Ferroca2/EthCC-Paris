@@ -1,0 +1,25 @@
+.firstWindow{
+    background: url('../../../public/back0.png') no-repeat center center/cover;
+    height: 91vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstTitle{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.button0{
+    background: linear-gradient(to right, #FB762C, #003BD2);
+    width: 8rem;
+    height: 3rem;
+    margin: 2rem;
+    border-radius: 50px;
+    color: white;
+}
