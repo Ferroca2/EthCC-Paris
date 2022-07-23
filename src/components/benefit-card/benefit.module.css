@@ -1,0 +1,31 @@
+.allCard{
+    background: 
+        linear-gradient(#001529, #001529) padding-box,
+        linear-gradient(to right, #FB762C, #003BD2) border-box;
+    border-radius: 10px;
+    padding: 0.5rem;
+    border: 2px solid transparent;
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    height: 8rem;
+    width: 8rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    background: 
+        linear-gradient(#001529, #001529) padding-box,
+        linear-gradient(to right, #FB762C, #003BD2) border-box;
+    padding: 0.5rem;
+    border: 2px solid transparent;
+}
+
+.benefitDescription{
+    margin-bottom: 3rem;
+    padding: 1rem;
+    font-size: 1.4rem;
+}

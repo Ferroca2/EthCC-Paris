@@ -109,3 +109,33 @@
 .blueText{
     color: #003BD2;
 }
+
+.benefitsInfo{
+    padding: 1rem;
+    height: 70vh;
+    width: 80vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.benefitsInfoTitle{
+    font-size: 2rem;
+    color: white;
+}
+.lastInfo{
+    padding: 3.9rem;
+    height: 70vh;
+    width: 80vw;
+    background: linear-gradient(to right, #FB762C, #003BD2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btnEnd{
+    font-size: 1.7rem;
+    color: white;
+}

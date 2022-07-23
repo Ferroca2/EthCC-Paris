@@ -3,6 +3,8 @@ import styles from './home.module.css';
 import { Link } from 'react-router-dom'
 import { Button } from "antd";
 import PriceCard from "../priceCard";
+import BenefitCard from "../benefit-card";
+
 
 export default function Home () {
     return(
@@ -37,6 +39,20 @@ export default function Home () {
                 <Link to='/create-allocation'><span className={styles.btnTxt}>Start</span></Link>
             </button>
                 </div>
+            </div>
+        </div>
+        <div className={styles.secondWindow}>
+                <h2 className={styles.benefitsInfoTitle}>The Perfect solution for those who <span className={styles.yellowText}>don't have time</span> to look the market</h2>
+            <div className={styles.benefitsInfo}>
+                <BenefitCard/>
+                <BenefitCard/>
+                <BenefitCard/>
+            </div>
+        </div>
+        <div className={styles.secondWindow}>
+            <div className={styles.lastInfo}>
+                <h2 className={styles.cryptoInfoTitle}>Join us and start rising your gains and profits in crypto in a descentralized way</h2>
+                    <div><Link to='/create-allocation' className={styles.btnEnd}>Start earning -></Link> </div>
             </div>
         </div>
         </>
