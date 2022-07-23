@@ -14,6 +14,13 @@
     color: white;
     font-weight: bold;
 }
+.firstSubtitle{
+    font-size: 1rem;
+    color: white;
+}
+.btnTxt{
+    color: white;
+}
 
 .button0{
     background: linear-gradient(to right, #FB762C, #003BD2);
@@ -22,4 +29,83 @@
     margin: 2rem;
     border-radius: 50px;
     color: white;
+}
+.secondWindow{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cryptoInfo{
+    padding: 1rem;
+    height: 70vh;
+    width: 80vw;
+    background-color: #303030;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cryptoInfoTitle{
+    font-size: 2rem;
+    color: white;
+}
+
+.orangeText{
+    color: #FB762C;
+}
+
+.thirdWindow{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tiltedInfo{
+    padding: 1rem;
+    height: 70vh;
+    width: 80vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.tiltedInfoTitle{
+    font-size: 2rem;
+    color: white;
+}
+
+.tiltedInfoColumn{
+    padding-top: 3.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.tiltedText{
+    font-size: 1.3rem;
+}
+
+.button1{   
+    background: 
+        linear-gradient(#001529, #001529) padding-box,
+        linear-gradient(to right, #FB762C, #003BD2) border-box;
+    padding: 0.5rem;
+    border: 2px solid transparent;
+    width: 8rem;
+    height: 3rem;
+    margin: 2rem;
+    border-radius: 50px;
+}
+
+.blueText{
+    color: #003BD2;
 }
