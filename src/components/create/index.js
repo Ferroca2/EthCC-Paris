@@ -1,10 +1,34 @@
 import { Button, Form, Input, Select } from "antd";
 import FormItem from "antd/lib/form/FormItem";
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import styles from './create.module.css';
+import { ethers } from "ethers"
+import Sample from '../../Sample.json'
+
 
 export default function CreateAllocation () {
+    const navigate = useNavigate()
+
+    async function CreatePosition() {
+        if (typeof window.ethereum !== "undefined") {
+            const provider = new ethers.providers.Web3Provider(window.ethereum);
+            const signer = provider.getSigner()
+
+            console.log({ provider });
+            const contract = new ethers.Contract('0x266333758B5A5ED6c7557A592AdD4B263E2A5D4e', Sample.abi, signer);
+            try {
+                const data = await contract.update('transaction sample');
+                console.log("data: ", data);
+                navigate('/')
+            } catch (err) {
+              console.log("Error: ", err);
+            }
+          }
+    
+        } 
+
+    
     return(
         <>
             <div className={styles.firstContainer}>
@@ -39,8 +63,8 @@ export default function CreateAllocation () {
                         <Input className={styles.formsInput} />
                     </FormItem>
                 </Form>
-                <button className={styles.button3}>
-                    <Link to='/create'><span className={styles.btnTxt}>Create</span></Link>
+                <button className={styles.button3} onClick={CreatePosition}>
+                    <span className={styles.btnTxt}>Create</span>
                 </button>
             </div>
         </>

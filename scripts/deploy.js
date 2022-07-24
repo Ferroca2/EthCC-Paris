@@ -10,15 +10,15 @@ async function main() {
 
   
   let txHash, txReceipt
-  const WETHtoDAI = await hre.ethers.getContractFactory("WETHtoDAI");
-  const wethToDai = await WETHtoDAI.deploy();
-  await wethToDai.deployed();
+  const Sample = await hre.ethers.getContractFactory("Sample");
+  const sample = await Sample.deploy('tilted');
+  await sample.deployed();
 
-  txHash = wethToDai.deployTransaction.hash;
+  txHash = sample.deployTransaction.hash;
   txReceipt = await hre.ethers.provider.waitForTransaction(txHash);
-  let wethToDaiaddress = txReceipt.contractAddress
+  let sampleaddress = txReceipt.contractAddress
 
-  console.log("mechanism deployed to:", wethToDaiaddress);
+  console.log("mechanism deployed to:", sampleaddress);
 }
 
 main().catch((error) => {
