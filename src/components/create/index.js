@@ -59,7 +59,7 @@ export default function CreateAllocation () {
                     <FormItem label={<label style={{ color: "white", marginTop: "40px" }}>Amount</label>} labelCol={{span: 24, offset: 10}} >
                         <Input className={styles.formsInput} />
                     </FormItem>
-                    <FormItem label={<label style={{ color: "white", marginTop: "25px" }}>Period</label>} labelCol={{span: 24, offset: 10}}>
+                    <FormItem label={<label style={{ color: "white", marginTop: "25px" }}>Period(days)</label>} labelCol={{span: 24, offset: 10}}>
                         <Input className={styles.formsInput} />
                     </FormItem>
                 </Form>
