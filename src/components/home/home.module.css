@@ -1,3 +1,7 @@
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
 .firstWindow{
     background: url('../../../public/back0.png') no-repeat center center/cover;
     height: 91vh;
@@ -10,48 +14,72 @@
 }
 
 .firstTitle{
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
     font-weight: bold;
 }
 .firstSubtitle{
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
 }
 .btnTxt{
     color: white;
+    font-size: 20px;
 }
 
 .button0{
     background: linear-gradient(to right, #FB762C, #003BD2);
-    width: 8rem;
+    width: 12rem;
     height: 3rem;
-    margin: 2rem;
-    border-radius: 50px;
+    margin: 4rem;
+    border-radius: 10px;
     color: white;
+
 }
 .secondWindow{
     height: 100vh;
     width: 100%;
+    margin: auto;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+#fourthWindow{
+    margin-top: 50px;
+}
+
 .cryptoInfo{
-    padding: 1rem;
+    padding: 3rem;
     height: 70vh;
-    width: 80vw;
-    background-color: #303030;
+    width: 50vw;
+    background-color: rgb(81, 81, 81);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .cryptoInfoTitle{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.allCard{
+    background: 
+        linear-gradient(rgb(81,81,81), rgb(81,81,81)) padding-box;
+    border-radius: 20px;
+    padding: 0.6rem 3rem;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.lotSpaces{
+    margin-left: 10px;
 }
 
 .orangeText{
@@ -70,14 +98,15 @@
 .tiltedInfo{
     padding: 1rem;
     height: 70vh;
-    width: 80vw;
+    width: 60vw;
+    margin-left: 0vw;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .tiltedInfoTitle{
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
 }
 
@@ -91,19 +120,23 @@
 }
 
 .tiltedText{
-    font-size: 1.3rem;
+    font-size: 1.45rem;
+    text-align: left;
+}
+
+.smallerYellow{
+    color: rgb(251, 193, 44);
 }
 
 .button1{   
     background: 
         linear-gradient(#001529, #001529) padding-box,
         linear-gradient(to right, #FB762C, #003BD2) border-box;
-    padding: 0.5rem;
+    padding: 0.6rem;
     border: 2px solid transparent;
-    width: 8rem;
-    height: 3rem;
+    width: 14rem;
     margin: 2rem;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 .blueText{
@@ -121,18 +154,24 @@
 }
 
 .benefitsInfoTitle{
-    font-size: 2rem;
+    font-size: 3rem;
     color: white;
+    display:inline-block;
 }
 .lastInfo{
     padding: 3.9rem;
     height: 70vh;
-    width: 80vw;
+    padding-top: 14vh;
+    width: 50vw;
     background: linear-gradient(to right, #FB762C, #003BD2);
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.yellowText{
+    color: rgb(251, 193, 44);
 }
 
 .btnEnd{

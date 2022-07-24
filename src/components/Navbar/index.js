@@ -20,7 +20,7 @@ export default function NavBar() {
               </li>
               <li>
                 <Link className={styles.navbarLink} to="/view">
-                  View
+                  View Your<br></br> Strategies
                 </Link>
               </li>
             </ul>
