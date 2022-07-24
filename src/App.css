@@ -9,9 +9,8 @@
   width: 10.5rem;
 }
 .site-title{
-  font-size: 1.5rem;
+  font-size: 32px;
   font-weight: bold;
-  
 }
 .button-nav-wrapper{
   float: right;
@@ -19,6 +18,12 @@
   align-items: center;
   height: 100%;
 }
+
+.linkNav{
+  font-size: 24px;
+  margin-left: 260px;
+}
+
 .ant-menu-item {
   background: none !important;
   color: black !important;
@@ -40,7 +45,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(44, 44, 44);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

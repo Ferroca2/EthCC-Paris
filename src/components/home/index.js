@@ -11,7 +11,7 @@ export default function Home() {
         <>
             <div className={styles.firstWindow}>
                 <h1 className={styles.firstTitle}>Manage your Strategies</h1>
-                <h6 className={styles.firstSubtitle}>With tilted you can set your crypto purcheses with an automatic period of time</h6>
+                <h6 className={styles.firstSubtitle}>With tilted you can set your crypto purcheses with an <span>automatic</span> period of time</h6>
                 <button className={styles.button0}>
                     <Link to='/create-allocation'><span className={styles.btnTxt}>Start</span></Link>
                 </button>
@@ -44,10 +44,10 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className={styles.secondWindow}>
+            <div className={styles.secondWindow} id={styles.fourthWindow}>
                 <h2 className={styles.benefitsInfoTitle}>The Perfect solution for those who<br></br> <span className={styles.yellowText}>don't have time</span> to look the market</h2>
                 <div className={styles.benefitsInfo}>
-                    <BenefitCard sentence='Easly and quickly way to allocate your funds' />
+                    <BenefitCard sentence='Easily and quickly way to allocate your funds' />
                     <BenefitCard sentence='Inteligent algorithm that shows the best time to invest' />
                     <BenefitCard sentence='Increase your gains with an automatic allocation' />
                 </div>

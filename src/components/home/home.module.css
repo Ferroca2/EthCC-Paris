@@ -14,12 +14,12 @@
 }
 
 .firstTitle{
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
     font-weight: bold;
 }
 .firstSubtitle{
-    font-size: 1rem;
+    font-size: 2rem;
     color: white;
 }
 .btnTxt{
@@ -29,11 +29,12 @@
 
 .button0{
     background: linear-gradient(to right, #FB762C, #003BD2);
-    width: 8rem;
+    width: 12rem;
     height: 3rem;
-    margin: 2rem;
-    border-radius: 50px;
+    margin: 4rem;
+    border-radius: 10px;
     color: white;
+
 }
 .secondWindow{
     height: 100vh;
@@ -45,6 +46,11 @@
     justify-content: center;
     align-items: center;
 }
+
+#fourthWindow{
+    margin-top: 50px;
+}
+
 .cryptoInfo{
     padding: 3rem;
     height: 70vh;
