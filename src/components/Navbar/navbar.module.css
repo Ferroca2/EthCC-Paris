@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:ital,wght@1,300&display=swap');
 .all {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 .navbar {
@@ -31,7 +32,7 @@
 
 .navbar .link {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: greenyellow;
   padding: 10px 15px;
   margin: 0 3px;
   font-weight: 900;

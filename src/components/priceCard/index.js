@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./priceCard.module.css"
 
-export default function PriceCard () {
+export default function PriceCard (props) {
     return(
         <div className={styles.allCard}>
             <div>
-                Bitcoin           -              BTC
+                {props.currency}           -              {props.initials}
             </div>
             <div>
-                <span>0.02</span>USD
+                <span>{props.price}</span>USD
             </div>
         </div>
     )
