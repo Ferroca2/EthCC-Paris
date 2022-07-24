@@ -46,19 +46,34 @@
     align-items: center;
 }
 .cryptoInfo{
-    padding: 1rem;
+    padding: 3rem;
     height: 70vh;
-    width: 80vw;
-    background-color: #303030;
+    width: 50vw;
+    background-color: rgb(81, 81, 81);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .cryptoInfoTitle{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     font-family: 'Comfortaa', cursive;
+}
+
+.allCard{
+    background: 
+        linear-gradient(rgb(81,81,81), rgb(81,81,81)) padding-box;
+    border-radius: 20px;
+    padding: 0.6rem 3rem;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 22px;
+}
+
+.lotSpaces{
+    margin-left: 10px;
 }
 
 .orangeText{
