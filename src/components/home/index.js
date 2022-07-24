@@ -46,7 +46,7 @@ export default function Home() {
             <div className={styles.secondWindow} id={styles.fourthWindow}>
                 <h2 className={styles.benefitsInfoTitle}>The Perfect solution for those who<br></br> <span className={styles.yellowText}>don't have time</span> to look the market</h2>
                 <div className={styles.benefitsInfo}>
-                    <BenefitCard sentence='Easily and quickly way to allocate your funds' />
+                    <BenefitCard sentence='Easily and quickly way to allocate your funds' url='public/timer.png'/>
                     <BenefitCard sentence='Inteligent algorithm that shows the best time to invest' />
                     <BenefitCard sentence='Increase your gains with an automatic allocation' />
                 </div>
