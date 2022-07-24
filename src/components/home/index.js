@@ -1,7 +1,6 @@
 import React from "react";
 import styles from './home.module.css';
 import { Link } from 'react-router-dom'
-import { Button } from "antd";
 import PriceCard from "../priceCard";
 import BenefitCard from "../benefit-card";
 
@@ -52,7 +51,7 @@ export default function Home () {
         <div className={styles.secondWindow}>
             <div className={styles.lastInfo}>
                 <h2 className={styles.cryptoInfoTitle}>Join us and start rising your gains and profits in crypto in a descentralized way</h2>
-                    <div><Link to='/create-allocation' className={styles.btnEnd}>Start earning -></Link> </div>
+                    <div><Link to='/create-allocation' className={styles.btnEnd}>Start earning</Link> </div>
             </div>
         </div>
         </>
