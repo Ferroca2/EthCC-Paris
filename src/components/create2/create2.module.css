@@ -1,0 +1,116 @@
+.firstContainer{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.button1{
+    background: linear-gradient(to right, #FB762C, #003BD2);
+    width: 15rem;
+    height: 4rem;
+    margin: 2rem;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.button1:hover{
+    background: linear-gradient(to right, #FB762C, #003BD2);
+    width: 15rem;
+    height: 4rem;
+    margin: 2rem;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btnTxt{
+    color: white;
+}
+.button0{
+    background: 
+        linear-gradient(#001529, #001529) padding-box,
+        linear-gradient(to right, #FB762C, #003BD2) border-box;
+    padding: 0.6rem;
+    border: 2px solid transparent;
+    width: 15rem;
+    height: 4rem;
+    margin: 2rem;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
+.button0:hover{
+    background: 
+    linear-gradient(#001529, #001529) padding-box,
+    linear-gradient(to right, #FB762C, #003BD2) border-box;
+    padding: 0.6rem;
+    border: 2px solid transparent;    width: 15rem;
+    height: 4rem;
+    margin: 2rem;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.formsContainer{
+    padding: 1rem;
+    height: 60vh;
+    width: 60vw;
+    background-color: #515151;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.button3{
+    background: linear-gradient(to right, #FB762C, #003BD2);
+    width: 15rem;
+    height: 2rem;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.formsContainerSmaller{
+    width: 70%;
+    margin: auto;
+}
+
+.buySellContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formsInput{
+    border-radius: 50px;
+    width: 100%;
+    background-color: #D9D9D9;
+    color: black;
+}
+
+.sellBuyItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.ant-form-vertical{
+    text-align: center;
+}

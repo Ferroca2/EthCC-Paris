@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/home/index";
-import CreateAllocation from "./components/create-allocation";
+import CreateAllocation from "./components/create";
 import View from "./components/view";
 import logo from './logo.svg'
 import { Link } from "react-router-dom";
@@ -9,6 +9,7 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import './App.css'
 
 import { Layout, Menu} from "antd";
+import CreateAllocation2 from "./components/create2";
 const { Header, Content } = Layout;
 
 const ApplicationRoutes = () => {
@@ -28,11 +29,11 @@ const ApplicationRoutes = () => {
             theme="dark"
             mode="horizontal">
                 <Menu.Item key='1'>
-                    <Link className='linkNav' to='/create-allocations'>
+                    <Link className='linkNav' to='/create'>
                         Create
                     </Link>
                 </Menu.Item>
-                <Menu.Item key='1'>
+                <Menu.Item key='2'>
                     <Link className='linkNav' to='/view'>
                         View Your Strategies
                     </Link>
@@ -48,7 +49,8 @@ const ApplicationRoutes = () => {
         >
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/create-allocation" element={<CreateAllocation />} />
+            <Route path="/create" element={<CreateAllocation />} />
+            <Route path="/create2" element={<CreateAllocation2 />} />
             <Route path="/view" element={<View />} />
           </Routes>
         </Content>
