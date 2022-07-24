@@ -3,8 +3,12 @@ import FormItem from "antd/lib/form/FormItem";
 import React from "react";
 import { Link } from 'react-router-dom'
 import styles from './create.module.css';
+import { useState } from 'react';
+
 
 export default function CreateAllocation () {
+    const [email, setEmail] = useState("");
+
     return(
         <>
             <div className={styles.firstContainer}>
@@ -37,6 +41,15 @@ export default function CreateAllocation () {
                     </FormItem>
                     <FormItem label={<label style={{ color: "white", marginTop: "25px" }}>Period</label>} labelCol={{span: 24, offset: 10}}>
                         <Input className={styles.formsInput} />
+                    </FormItem>
+                    <FormItem label={<label style={{ color: "white", marginTop: "5px", fontSize: "20px" }}>Email</label>} labelCol={{ span: 24, offset: 10 }}>
+                        <Input className={styles.formsInput}
+                            id="email"
+                            onChange={(event) => {
+                                setEmail(event.target.value);
+                            }}
+                            value={email}
+                        />
                     </FormItem>
                 </Form>
                 <button className={styles.button3}>
