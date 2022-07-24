@@ -52,7 +52,7 @@ export default function Home () {
         <div className={styles.secondWindow}>
             <div className={styles.lastInfo}>
                 <h2 className={styles.cryptoInfoTitle}>Join us and start rising your gains and profits in crypto in a descentralized way</h2>
-                    <div><Link to='/create-allocation' className={styles.btnEnd}>Start earning -></Link> </div>
+                    <div><Link to='/create-allocation' className={styles.btnEnd}>Start earning {'->'}</Link> </div>
             </div>
         </div>
         </>
