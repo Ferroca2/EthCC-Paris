@@ -7,6 +7,7 @@ import logo from './logo.svg'
 import { Link } from "react-router-dom";
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import './App.css'
+import Navbar from './components/Navbar/index'
 
 import { Layout, Menu} from "antd";
 const { Header, Content } = Layout;
@@ -18,7 +19,7 @@ const ApplicationRoutes = () => {
         <Header>
           <div className="logo">
               <img src={logo} height={50} width={50} alt=''/>
-              <div className='site-title'>Tilted.fin</div>
+              <div className='site-title'>Tilted</div>
 
           </div>
           <div className="button-nav-wrapper">
@@ -28,13 +29,13 @@ const ApplicationRoutes = () => {
             theme="dark"
             mode="horizontal">
                 <Menu.Item key='1'>
-                    <Link to='/create-allocations'>
+                    <Link className='linkNav' to='/create-allocations'>
                         Create
                     </Link>
                 </Menu.Item>
                 <Menu.Item key='1'>
-                    <Link to='/view'>
-                        View
+                    <Link className='linkNav' to='/view'>
+                        View Your Strategies
                     </Link>
                 </Menu.Item>
             </Menu>
