@@ -20,8 +20,8 @@
 
 .formsContainer{
     padding: 1rem;
-    height: 60vh;
-    width: 60vw;
+    height: 70vh;
+    width: 50vw;
     background-color: #515151;
     border-radius: 10px;
     display: flex;
@@ -43,6 +43,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 70%;
+    margin: auto;
 }
 
 .formsInput{
@@ -60,4 +62,11 @@
 
 .ant-form-vertical{
     text-align: center;
+}
+
+.button1{
+    background: linear-gradient(to right, #ffac80, #446ac8);
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
 }
