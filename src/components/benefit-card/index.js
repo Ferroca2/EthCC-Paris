@@ -1,4 +1,3 @@
-import { ProposalState } from "@thirdweb-dev/sdk";
 import React from "react";
 import styles from "./benefit.module.css"
 
