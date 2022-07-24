@@ -1,0 +1,63 @@
+.firstContainer{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.button0{
+    background: linear-gradient(to right, #FB762C, #003BD2);
+    width: 15rem;
+    height: 4rem;
+    margin: 2rem;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+.formsContainer{
+    padding: 1rem;
+    height: 60vh;
+    width: 60vw;
+    background-color: #515151;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.formsContainerSmaller{
+    width: 70%;
+    margin: auto;
+}
+
+.buySellContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formsInput{
+    border-radius: 50px;
+    width: 50%;
+}
+
+.sellBuyItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+.ant-form-vertical{
+    text-align: center;
+}

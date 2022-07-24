@@ -1,11 +1,17 @@
 .allCard{
     background: 
-        linear-gradient(#303030, #303030) padding-box,
+        linear-gradient(rgb(81,81,81), rgb(81,81,81)) padding-box,
         linear-gradient(to right, #FB762C, #003BD2) border-box;
-    border-radius: 10px;
-    padding: 0.5rem;
+    border-radius: 20px;
+    padding: 0.6rem 3rem;
     border: 2px solid transparent;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(251, 193, 44);
 }
